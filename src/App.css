@@ -6,7 +6,7 @@
 }
 
 .text-general {
-	color: #0b73ea;
+	color: #0c92e8;
 }
 
 .btn:focus {
@@ -17,6 +17,7 @@
 	background-color: #0b73ea;
 	border: #0b73ea;
 	color: #ffffff;
+	padding: 7px 27px;
 }
 .btn-general:hover {
 	background-color: #0c92e8;

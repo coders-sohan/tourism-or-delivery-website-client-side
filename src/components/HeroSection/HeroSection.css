@@ -1,0 +1,28 @@
+.carousel-item-1 {
+	background-image: url("https://tourism-website-react.netlify.app/banner-1.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+}
+.carousel-item-2 {
+	background-image: url("https://tourism-website-react.netlify.app/banner-2.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+}
+.carousel-item-3 {
+	background-image: url("https://tourism-website-react.netlify.app/banner-3.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+}
+.carousel-item-4 {
+	background-image: url("https://tourism-website-react.netlify.app/banner-4.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+}
