@@ -6,11 +6,14 @@ const Header = () => {
 	return (
 		<>
 			<div>
-				<nav className="navbar navbar-expand-lg navbar-light bg-light">
+				<nav className="navbar navbar-expand-lg navbar-light navbar-bg">
 					<div className="container">
 						<NavLink className="navbar-brand" to="/">
-							{/* <img src="{logo}" alt="logo" width="160px" /> */}
-                            Logo
+							<img
+								src="https://tourism-website-react.netlify.app/logo.png"
+								alt="logo"
+								width="110px"
+							/>
 						</NavLink>
 						<button
 							className="navbar-toggler"
@@ -40,11 +43,6 @@ const Header = () => {
 								<li className="nav-item me-3">
 									<NavLink className="navbar-item nav-link" to="/about">
 										About
-									</NavLink>
-								</li>
-								<li className="nav-item me-3">
-									<NavLink className="navbar-item nav-link" to="/services">
-										Services
 									</NavLink>
 								</li>
 								<li className="nav-item me-3">

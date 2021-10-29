@@ -27,3 +27,7 @@
 .navbar-light .navbar-nav .show > .nav-link {
 	color: #0c92e8;
 }
+
+.navbar-bg{
+	background-color: #f8f8ff;
+}
