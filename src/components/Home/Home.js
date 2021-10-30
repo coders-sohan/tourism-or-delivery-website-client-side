@@ -3,7 +3,7 @@ import DiscountSection from "../DiscountSection/DiscountSection";
 import HeroSection from "../HeroSection/HeroSection";
 import PackagesSection from "../PackagesSection/PackagesSection";
 import SelectionSection from "../SelectionSection/SelectionSection";
-import WhyUs from "../WhyUs/WhyUs";
+import WhyUsSection from "../WhyUsSection/WhyUsSection";
 
 const Home = () => {
 	return (
@@ -12,7 +12,7 @@ const Home = () => {
 			<SelectionSection />
 			<PackagesSection />
 			<DiscountSection />
-			<WhyUs />
+			<WhyUsSection />
 		</>
 	);
 };

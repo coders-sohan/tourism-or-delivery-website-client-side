@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
-import Package from "../Package/Package";
+import { Link } from "react-router-dom";
+import PackageData from "../PackageData/PackageData";
 
 const PackageSection = () => {
 	const [packages, setPackages] = useState([]);
 	useEffect(() => {
 		fetch("http://localhost:5000/data")
 			.then((res) => res.json())
-			.then((data) => setPackages(data.slice(0,3)));
+			.then((data) => setPackages(data.slice(0, 3)));
 	}, []);
 	return (
 		<>
@@ -27,10 +28,21 @@ const PackageSection = () => {
 					</div>
 					<div>
 						<div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
-							
-								{packages.map((packageData) => (
-									<Package key={packageData._id} package={packageData}></Package>
-								))}
+							{packages.map((packageData) => (
+								<PackageData
+									key={packageData._id}
+									package={packageData}
+								></PackageData>
+							))}
+						</div>
+						<div className="mt-5 text-center">
+							<Link
+								to="/packages"
+								className="btn btn-general rounded-pill py-2"
+							>
+								<span style={{ fontSize: "18px" }}>Load More</span>{" "}
+								<i class="ms-3 fas fa-sync" style={{ fontSize: "14px" }}></i>
+							</Link>
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,6 @@
+.about-sec {
+	background-image: url("https://tourism-website-react.netlify.app/footerbanner.jpg");
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

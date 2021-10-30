@@ -8,8 +8,12 @@
 	color: #0c92e8;
 }
 
-.text-gray{
+.text-gray {
 	color: #4b617c;
+}
+
+.bg-light-gray {
+	background-color: #f8f8ff;
 }
 
 .btn:focus {
@@ -62,4 +66,12 @@
 .package-sec,
 .footer {
 	background-color: #f8f8ff;
+}
+
+.login-sec {
+	height: 80vh;
+	background-image: url("https://tourism-website-react.netlify.app/login-bg.png");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 }

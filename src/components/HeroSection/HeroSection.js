@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -50,12 +50,12 @@ const HeroSection = () => {
 										for more Reasonable cost with love, Just explore about More!
 									</p>
 									<div>
-										<NavLink
-											to="/services"
-											className="btn btn-general py-2 ps-2z"
+										<Link
+											to="/packages"
+											className="btn btn-general py-2"
 										>
-											Our service
-										</NavLink>
+											Our Packages
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -72,12 +72,12 @@ const HeroSection = () => {
 										for more Reasonable cost with love, Just explore about More!
 									</p>
 									<div>
-										<NavLink
-											to="/services"
+										<Link
+											to="/packages"
 											className="btn btn-general py-2 ps-2z"
 										>
-											Our service
-										</NavLink>
+											Our Packages
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -94,12 +94,12 @@ const HeroSection = () => {
 										for more Reasonable cost with love, Just explore about More!
 									</p>
 									<div>
-										<NavLink
-											to="/services"
+										<Link
+											to="/packages"
 											className="btn btn-general py-2 ps-2z"
 										>
-											Our service
-										</NavLink>
+											Our Packages
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -116,12 +116,12 @@ const HeroSection = () => {
 										for more Reasonable cost with love, Just explore about More!
 									</p>
 									<div>
-										<NavLink
-											to="/services"
+										<Link
+											to="/packages"
 											className="btn btn-general py-2 ps-2z"
 										>
-											Our service
-										</NavLink>
+											Our Packages
+										</Link>
 									</div>
 								</div>
 							</div>
