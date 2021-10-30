@@ -10,6 +10,7 @@ import Package from "./components/Package/Package";
 import Login from "./components/Login/Login";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import PackageDetails from "./components/PackageDetails/PackageDetails";
 
 function App() {
 	return (
@@ -27,8 +28,11 @@ function App() {
 						<Route path="/about">
 							<About />
 						</Route>
-						<PrivateRoute path="/packages">
+						<PrivateRoute exact path="/packages">
 							<Package />
+						</PrivateRoute>
+						<PrivateRoute path="/packages/details/:id">
+							<PackageDetails />
 						</PrivateRoute>
 						<PrivateRoute path="/contact">
 							<Contact />
