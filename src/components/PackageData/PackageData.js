@@ -3,7 +3,6 @@ import Rating from "react-rating";
 
 const PackageData = (props) => {
 	const { name, price, rating, duration, img } = props.package;
-	console.log(props.package);
 	return (
 		<>
 			<div className="col">

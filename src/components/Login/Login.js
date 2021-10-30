@@ -27,13 +27,13 @@ const Login = () => {
 				<div className="container">
 					<div className="py-5">
 						<div className="mx-auto w-lg-25 w-100">
-							<div className="text-center" style={{marginTop: '200px'}}>
+							<div className="text-center" style={{ marginTop: "200px" }}>
 								<button
 									onClick={handleRedirectGoogleSignIn}
 									className="btn btn-primary mt-5 mx-2 bg-general"
 								>
-									<span>Google SignIn</span>
-									<i className="fab fa-google ms-2"></i>
+									<span className="fs-4">Google Sign In</span>
+									<i className="fab fs-4 fa-google ms-3 "></i>
 								</button>
 							</div>
 						</div>

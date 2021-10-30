@@ -9,7 +9,7 @@ const Footer = () => {
 					<footer className="pt-5 pb-2">
 						<div className="row justify-content-between">
 							<div className="col-lg-2 col-md-4 col-4">
-								<h5>Other Pages</h5>
+								<h5>All Pages</h5>
 								<ul className="nav flex-column">
 									<li className="nav-item mb-2">
 										<Link to="/home" className="nav-link p-0 text-muted">
@@ -22,13 +22,13 @@ const Footer = () => {
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
-										<Link to="/" className="nav-link p-0 text-muted">
-											Booking
+										<Link to="/packages" className="nav-link p-0 text-muted">
+											Packages
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
-										<Link to="/" className="nav-link p-0 text-muted">
-											FAQs
+										<Link to="/my-order" className="nav-link p-0 text-muted">
+											My Orders
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
@@ -42,17 +42,17 @@ const Footer = () => {
 								<h5>Pages</h5>
 								<ul className="nav flex-column">
 									<li className="nav-item mb-2">
-										<Link to="/" className="nav-link p-0 text-muted">
+										<Link to="/Terms-&-Conditions" className="nav-link p-0 text-muted">
 											Terms & Conditions
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
-										<Link to="/" className="nav-link p-0 text-muted">
+										<Link to="/Privacy-&-Policies" className="nav-link p-0 text-muted">
 											Privacy & Policies
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
-										<Link to="/" className="nav-link p-0 text-muted">
+										<Link to="/Cookies-Policies" className="nav-link p-0 text-muted">
 											Cookies Policies
 										</Link>
 									</li>
@@ -63,12 +63,12 @@ const Footer = () => {
 								<h5>Login/Register</h5>
 								<ul className="nav flex-column">
 									<li className="nav-item mb-2">
-										<Link to="/" className="nav-link p-0 text-muted">
+										<Link to="/login" className="nav-link p-0 text-muted">
 											Sign In
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
-										<Link to="/" className="nav-link p-0 text-muted">
+										<Link to="/login" className="nav-link p-0 text-muted">
 											Sign Up
 										</Link>
 									</li>

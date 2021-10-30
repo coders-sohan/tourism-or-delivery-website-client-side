@@ -41,7 +41,7 @@ const PackageSection = () => {
 								className="btn btn-general rounded-pill py-2"
 							>
 								<span style={{ fontSize: "18px" }}>Load More</span>{" "}
-								<i class="ms-3 fas fa-sync" style={{ fontSize: "14px" }}></i>
+								<i className="ms-3 fas fa-sync" style={{ fontSize: "14px" }}></i>
 							</Link>
 						</div>
 					</div>

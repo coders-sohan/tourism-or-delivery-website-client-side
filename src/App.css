@@ -75,3 +75,12 @@
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
+
+.selection-sec {
+	padding: 100px 0;
+	background-image: url("https://tourism-website-react.netlify.app/banner.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
