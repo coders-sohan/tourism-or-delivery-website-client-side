@@ -4,7 +4,7 @@ import "./HeroSection.css";
 
 const HeroSection = () => {
 	return (
-		<div>
+		<>
 			<div
 				id="carouselExampleIndicators"
 				className="carousel slide"
@@ -153,7 +153,7 @@ const HeroSection = () => {
 					<span className="visually-hidden">Next</span>
 				</button>
 			</div>
-		</div>
+		</>
 	);
 };
 

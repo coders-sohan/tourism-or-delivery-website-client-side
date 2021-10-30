@@ -31,9 +31,9 @@ const SelectionSection = () => {
 						/>
 					</div>
 					<div className="col-lg-3 p-5">
-						<div class="dropdown">
+						<div className="dropdown">
 							<button
-								class="form-control dropdown-toggle"
+								className="form-control dropdown-toggle"
 								type="button"
 								id="dropdownMenuButton1"
 								data-bs-toggle="dropdown"
@@ -42,26 +42,26 @@ const SelectionSection = () => {
 								Travel Type
 							</button>
 							<ul
-								class="dropdown-menu text-center"
+								className="dropdown-menu text-center"
 								aria-labelledby="dropdownMenuButton1"
 							>
 								<li>
-									<Link class="dropdown-item" to="/">
+									<Link className="dropdown-item" to="/">
 										Adventure
 									</Link>
 								</li>
 								<li>
-									<Link class="dropdown-item" to="/">
+									<Link className="dropdown-item" to="/">
 										Romantic
 									</Link>
 								</li>
 								<li>
-									<Link class="dropdown-item" to="/">
+									<Link className="dropdown-item" to="/">
 										Vacation
 									</Link>
 								</li>
 								<li>
-									<Link class="dropdown-item" to="/">
+									<Link className="dropdown-item" to="/">
 										Explore
 									</Link>
 								</li>
@@ -70,7 +70,7 @@ const SelectionSection = () => {
 					</div>
 					<div className="col-lg-3 p-5 text-center">
 						<button className="btn btn-general justify-content-between align-items-center">
-							<i class="fas fa-search-location me-2"></i> <span>Find Now</span>
+							<i className="fas fa-search-location me-2"></i> <span>Find Now</span>
 						</button>
 					</div>
 				</div>
