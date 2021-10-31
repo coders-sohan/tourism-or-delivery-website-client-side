@@ -30,7 +30,7 @@ const Login = () => {
 							<div className="text-center" style={{ marginTop: "200px" }}>
 								<button
 									onClick={handleRedirectGoogleSignIn}
-									className="btn btn-primary mt-5 mx-2 bg-general"
+									className="btn btn-primary mt-4 mx-2 bg-general"
 								>
 									<span className="fs-4">Google Sign In</span>
 									<i className="fab fs-4 fa-google ms-3 "></i>
