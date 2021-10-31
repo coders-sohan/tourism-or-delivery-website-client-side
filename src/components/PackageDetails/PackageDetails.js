@@ -59,6 +59,9 @@ const PackageDetails = () => {
 								/>{" "}
 								<span className="text-dark">({packageDetails.rating})</span>
 							</div>
+							<div className="mt-3">
+								<p>{packageDetails.des}</p>
+							</div>
 						</div>
 						<div className="card-footer bg-white border-top-0 pb-3">
 							<div className="d-flex justify-content-between align-items-center">
