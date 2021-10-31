@@ -8,7 +8,7 @@ const Footer = () => {
 				<div className="container">
 					<footer className="pt-5 pb-2">
 						<div className="row justify-content-between">
-							<div className="col-lg-2 col-md-4 col-4">
+							<div className="col-lg-2 col-md-4 col-6">
 								<h5>All Pages</h5>
 								<ul className="nav flex-column">
 									<li className="nav-item mb-2">
@@ -38,28 +38,37 @@ const Footer = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="col-lg-2 col-md-4 col-4">
+							<div className="col-lg-2 col-md-4 col-6">
 								<h5>Pages</h5>
 								<ul className="nav flex-column">
 									<li className="nav-item mb-2">
-										<Link to="/Terms-&-Conditions" className="nav-link p-0 text-muted">
+										<Link
+											to="/Terms-&-Conditions"
+											className="nav-link p-0 text-muted"
+										>
 											Terms & Conditions
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
-										<Link to="/Privacy-&-Policies" className="nav-link p-0 text-muted">
+										<Link
+											to="/Privacy-&-Policies"
+											className="nav-link p-0 text-muted"
+										>
 											Privacy & Policies
 										</Link>
 									</li>
 									<li className="nav-item mb-2">
-										<Link to="/Cookies-Policies" className="nav-link p-0 text-muted">
+										<Link
+											to="/Cookies-Policies"
+											className="nav-link p-0 text-muted"
+										>
 											Cookies Policies
 										</Link>
 									</li>
 								</ul>
 							</div>
 
-							<div className="col-lg-2 col-md-4 col-4">
+							<div className="col-lg-2 col-md-4 col-6 mb-3">
 								<h5>Login/Register</h5>
 								<ul className="nav flex-column">
 									<li className="nav-item mb-2">
@@ -75,7 +84,7 @@ const Footer = () => {
 								</ul>
 							</div>
 
-							<div className="col-lg-4 col-md-4 col-12 m-0 pt-4 offset-1">
+							<div className="col-lg-4 col-md-4 col-12 m-0 offset-1">
 								<form>
 									<h5>Subscribe to our newsletter</h5>
 									<p>Monthly digest of whats new and exciting from us.</p>

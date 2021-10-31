@@ -19,11 +19,15 @@ const PackageDetails = () => {
 	return (
 		<div className="container py-5">
 			<div className="row">
-				<div className="col-md-6">
-					<img src={packageDetails.img} height="300px"
-					 alt={packageDetails.name} />
+				<div className="col-md-6 col-12">
+					<img
+						src={packageDetails.img}
+						height="300px"
+						className="img-fluid mb-2"
+						alt={packageDetails.name}
+					/>
 				</div>
-				<div className="col-md-6">
+				<div className="col-md-6 col-12">
 					<div className="card h-100">
 						<div className="card-body">
 							<p className="">
