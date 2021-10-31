@@ -4,7 +4,7 @@ import PackageData from "../PackageData/PackageData";
 const Package = () => {
 	const [packages, setPackages] = useState([]);
 	useEffect(() => {
-		fetch("http://localhost:5000/data")
+		fetch("https://obscure-reef-62452.herokuapp.com/data")
 			.then((res) => res.json())
 			.then((data) => setPackages(data));
 	}, []);

@@ -5,7 +5,7 @@ import PackageData from "../PackageData/PackageData";
 const PackageSection = () => {
 	const [packages, setPackages] = useState([]);
 	useEffect(() => {
-		fetch("http://localhost:5000/data")
+		fetch("https://obscure-reef-62452.herokuapp.com/data")
 			.then((res) => res.json())
 			.then((data) => setPackages(data.slice(0, 3)));
 	}, []);
@@ -41,7 +41,10 @@ const PackageSection = () => {
 								className="btn btn-general rounded-pill py-2"
 							>
 								<span style={{ fontSize: "18px" }}>Load More</span>{" "}
-								<i className="ms-3 fas fa-sync" style={{ fontSize: "14px" }}></i>
+								<i
+									className="ms-3 fas fa-sync"
+									style={{ fontSize: "14px" }}
+								></i>
 							</Link>
 						</div>
 					</div>
